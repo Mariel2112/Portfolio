@@ -371,7 +371,7 @@ a:hover {
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 500;
-  color: #ffd700;
+  color: #ffb100;
   position: relative;
   margin-top: -0.31em;
   display: inline-block;
@@ -1425,7 +1425,7 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   transition: all 1s;
-  box-shadow: 0 -5px 15px #086ad84a;
+  box-shadow: 0 -5px 15px #fff;
 }
 
 .sticky-on {
@@ -1435,7 +1435,7 @@ a:hover {
 }
 
 .wpo-site-header.wpo-header-style-1 .navigation.sticky-on {
-  background: #004585;
+  background: #fff;
 }
 
 .wpo-site-header .navigation > .container {
@@ -1951,7 +1951,7 @@ a:hover {
     font-size: 1rem;
     display: block;
     padding: 10px 20px;
-    color: #062265;
+    color: #000;
     position: relative;
     overflow: hidden;
     font-weight: 500;
@@ -2196,7 +2196,7 @@ a:hover {
 }
 @media (max-width: 767px) {
   .wpo-site-header .navbar-header .navbar-brand {
-    font-size: 24px;
+    font-size: 48px;
   }
   .wpo-site-header #navbar .navbar-nav {
     margin: 0;
@@ -2238,17 +2238,17 @@ a:hover {
   background: transparent;
 }
 .wpo-site-header.wpo-header-style-1 #navbar > ul > li > a {
-  color: #0a0466;
+  color: #000;
 }
 
 @media (max-width: 440px) {
   .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 170px;
+    max-width: 270px;
   }
 }
 @media (max-width: 370px) {
   .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 140px;
+    max-width: 240px;
   }
 }
 @media (max-width: 1700px) {
@@ -2572,7 +2572,7 @@ a:hover {
 }
 
 .navbar-brand img {
-  max-width: 180px;
+  max-width: 280px;
 }
 
 .wpo-site-header.wpo-header-style-5
@@ -2588,9 +2588,11 @@ a:hover {
 /*3.1 wpo-hero-slider*/
 .wpo-hero-section-1 {
   position: relative;
-  height: 1000px;
+  height: 950px;
   /* background: linear-gradient(90deg, #142e95 0%, #3758d2 100%); */
   background: #fff;
+  top: 10%;
+  background-image: url("../images/Circles.png");
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -2624,7 +2626,14 @@ a:hover {
   font-weight: 900;
   line-height: 115px;
   margin: 10px 0 25px;
-  color:#0a0466;
+  color: #0a0466;
+}
+.wpo-hero-section-1 .wpo-hero-title h2 .yellow {
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 115px;
+  margin: 10px 0 25px;
+  color: #ffb100;
 }
 @media (max-width: 1400px) {
   .wpo-hero-section-1 .wpo-hero-title h2 {
