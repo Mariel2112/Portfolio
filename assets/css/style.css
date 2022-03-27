@@ -1553,7 +1553,7 @@ a:hover {
   }
 
   .wpo-site-header .navbar-header button span {
-    background-color: #fff;
+    background-color: #0a0466;
     width: 20px;
     display: block;
     height: 2px;
@@ -1712,7 +1712,7 @@ a:hover {
 }
 .wpo-site-header .header-right .search-toggle-btn .fi:before {
   font-size: 20px;
-  color: #fff;
+  color: #0a0466;
 }
 
 /*** cart-search-contact ***/
@@ -2133,7 +2133,7 @@ a:hover {
     padding-bottom: 60px;
   }
   .wpo-site-header #navbar .close-navbar {
-    background-color: #fff;
+    background-color: #0a0466;
     width: 40px;
     height: 40px;
     color: #000;
@@ -2238,7 +2238,7 @@ a:hover {
   background: transparent;
 }
 .wpo-site-header.wpo-header-style-1 #navbar > ul > li > a {
-  color: #fff;
+  color: #0a0466;
 }
 
 @media (max-width: 440px) {
@@ -2589,7 +2589,8 @@ a:hover {
 .wpo-hero-section-1 {
   position: relative;
   height: 1000px;
-  background: linear-gradient(90deg, #142e95 0%, #3758d2 100%);
+  /* background: linear-gradient(90deg, #142e95 0%, #3758d2 100%); */
+  background: #fff;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -2623,7 +2624,7 @@ a:hover {
   font-weight: 900;
   line-height: 115px;
   margin: 10px 0 25px;
-  color: rgb(255, 255, 255);
+  color:#0a0466;
 }
 @media (max-width: 1400px) {
   .wpo-hero-section-1 .wpo-hero-title h2 {
@@ -2797,7 +2798,7 @@ a:hover {
 .wpo-hero-section-1 .right-vec .round-1 {
   width: 754px;
   height: 754px;
-  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border: 1px dashed #0a0466;
   border-radius: 50%;
   position: absolute;
   left: -80px;
@@ -2816,7 +2817,7 @@ a:hover {
 .wpo-hero-section-1 .right-vec .round-2 {
   width: 634px;
   height: 634px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid #0a0466;
   border-radius: 50%;
   position: absolute;
   left: -20px;
@@ -2835,7 +2836,7 @@ a:hover {
 .wpo-hero-section-1 .right-vec .round-3 {
   width: 535px;
   height: 535px;
-  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border: 1px dashed #0a0466;
   border-radius: 50%;
   position: absolute;
   left: 30px;
@@ -2854,7 +2855,7 @@ a:hover {
 .wpo-hero-section-1 .right-vec .round-4 {
   width: 424px;
   height: 424px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid #0a0466;
   border-radius: 50%;
   position: absolute;
   left: 85px;
@@ -2888,7 +2889,7 @@ a:hover {
 .wpo-hero-section-1 .social-link ul li a {
   position: relative;
   padding-right: 50px;
-  color: #fff;
+  color: #0a0466;
 }
 .wpo-hero-section-1 .social-link ul li a:before {
   position: absolute;
